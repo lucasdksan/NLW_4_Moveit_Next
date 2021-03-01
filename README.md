@@ -4,7 +4,7 @@
 
 ## O projeto totalmente React da NLW # 4 tem como prioridade alertar os desenvolvedores sobre o uso intensivo de computadores e incentivando-os a fazer exercícios físicos. Toda essa dinâmica foi estruturada com base em jogos, onde o Dev deve completar os exercícios para subir de nível.
 
-![PAGE]('./README/Home_Image.png')
+![PAGE](./README/Home_Image.png)
 
 ## O projeto possui apenas uma página web, que representa o painel do aplicativo. Todo este projeto gira em torno do Context, pois existem muitas interações entre os componentes dos sistemas. Next_Js atua na administração de caminhos, onde as pastas principais (pages, styles e public) representam uma rota, por exemplo, 'icons/level.svg' onde a imagem esta na pasta principal public. Desta forma, as páginas do sistema ficam alocadas na pasta de pages, porém, neste local possui 3 arquivos e apenas 1 é uma página. Isso ocorre porque _app.tsx e _document.tsx são usados para "regular" algumas configurações para todas as páginas do sistema. _App.tsx é usado para atribuir estilizações globais a todo o sistema, _document.tsx é usado para atribuir algumas configurações no arquivo .html gerado pelo Next_Js. O arquivo index.tsx contém toda a estrutura do projeto, organizando assim os componentes criados em uma única página, além disso, possui a função GetServerSideProps que se encarrega de ler algumas informações nos cookies do navegador.
 
